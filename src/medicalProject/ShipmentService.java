@@ -19,5 +19,38 @@ public class ShipmentService
 		System.out.println("Delivery Date: 13th March 2020");
 		System.out.println("Tracking number = Invoice12345");
 		System.out.println("Charged Amount = 200USD");
+		
+		System.out.println("");
+	
+		//method invoking
+		System.out.println("---- SHIPMENT SERVICE : STARTS----");System.out.println("");
+		
+		addShipment();
+		deleteShipment();
+		getShipment();
+		inMemoryOperations();
+		
+		System.out.println("");
+		System.out.println("---- SHIPMENT SERVICE : ENDS----");
+	}
+	
+	public static void addShipment()
+	{
+		System.out.println("SHIPMENT ADDED SUCCESSFULLY");
+	}
+	
+	public static void deleteShipment()
+	{
+		System.out.println("SHIPMENT DELETED SUCCESSFULLY");
+	}
+	
+	public static void getShipment()
+	{
+		System.out.println("SHIPMENT DETAILS ARE FETCHED SUCCESSFULLY");
+	}
+	
+	public static void inMemoryOperations()
+	{
+		System.out.println("In Memory Operations Completed Successfully");
 	}
 }
